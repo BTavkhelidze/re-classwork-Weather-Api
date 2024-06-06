@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/responcive.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main__container">
+      <header>
+        <div class="header__wrapper">
+          <img src="./images/logo.png" alt="web logo " />
+          <div>
+            <input
+              class="searchInput"
+              type="search"
+              placeholder="Search Location..."
+            />
+            <img class="searchBtn" src="search.svg" alt="search icon" />
+            <div class="underline"></div>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="weather__display__Wrapper">
+          <div class="temperature__wrapper">
+            <span class="temperature">16°</span>
+          </div>
+          <div>
+            <div>
+              <span class="cityName">London</span>
+              <p class="live__time">06:09 - Monday, 9 Sep ‘23</p>
+            </div>
+            <div class=" ">
+              <img src="./images/clouds.png" alt="clouds icon" />
+            </div>
+          </div>
+        </div>
+        <div class="underline und1"></div>
+      </section>
+      <section class="section2">
+        <div class="weather__deatails_wrapper">
+          <div id="blur"></div>
+          <div class="weather__deatails">
+            <h5>Weather Details...</h5>
+            <div>
+              <p>thunderstorm with light drizzle</p>
+              <div>
+                <span>Temp max</span>
+                <div>
+                  <span>19°</span>
+                  <img src="./images/temp_max.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <span>Temp min</span>
+                <div>
+                  <span>15°</span>
+                  <img src="./images/temp_min.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <span>Humadity</span>
+                <div>
+                  <span class="humadility">58%</span>
+                  <img
+                    class="humadility-img"
+                    src="./images/humadility.png"
+                    alt=" humadility icon"
+                  />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <span>Cloudy</span>
+                <div>
+                  <span class="clouds">86%</span>
+                  <img
+                    class="cloudy-img"
+                    src="./images/clouds.png"
+                    alt=" cloudy ico"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="wind_div">
+              <div>
+                <span>Wind</span>
+                <div>
+                  <span class="wind">5km/h</span>
+                  <img
+                    class="wind-img"
+                    src="./images/wind.png"
+                    alt="wind icon"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="underline"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

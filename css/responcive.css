@@ -1,0 +1,109 @@
+@media screen and (min-width: 770px) {
+  body {
+    background-image: url('../images/desktop-bg.png');
+    background-position: center;
+    background-size: cover;
+  }
+
+  .main__container {
+    max-width: 111rem;
+    margin: 5rem auto;
+  }
+
+  .header__wrapper > img {
+    max-width: 6rem;
+    height: 3.1rem;
+  }
+  .header__wrapper > div > input {
+    max-width: 30.5rem;
+
+    font-size: 18px;
+
+    line-height: 21.09px;
+  }
+
+  .searchBtn {
+    max-width: 2.2rem;
+    height: 2.1rem;
+  }
+
+  /* header ends here */
+
+  /*! weather display starts here */
+
+  .weather__display__Wrapper {
+    padding-left: 0;
+    justify-content: center;
+  }
+  .temperature__wrapper {
+    margin-bottom: 5.6rem;
+  }
+
+  .weather__display__Wrapper > div .cityName {
+    font-size: 48px;
+
+    line-height: 56.25px;
+  }
+  .weather__display__Wrapper > div .live__time {
+    font-size: 16px;
+    line-height: 18.75px;
+  }
+  .temperature {
+    font-size: 120px;
+
+    line-height: 140.63px;
+    letter-spacing: -0.08em;
+  }
+  .weather__display__Wrapper > div > div img {
+    max-width: 5.5rem;
+    height: 5.5rem;
+    margin-left: 1.5rem;
+  }
+  .weather__display__Wrapper > div .live__time {
+    font-size: 16px;
+
+    line-height: 18.75px;
+  }
+  /* weather temperature ends here */
+
+  /*! weather details starts here */
+
+  .section2 {
+    backdrop-filter: blur(12.5px);
+  }
+
+  .weather__deatails h5 {
+    font-size: 18px;
+
+    line-height: 21.09px;
+
+    margin-bottom: 5.2rem;
+  }
+
+  .weather__deatails > div p {
+    font-size: 18px;
+
+    line-height: 21.09px;
+  }
+
+  .weather__deatails > div > div > span,
+  .weather__deatails > div > div > div span {
+    font-size: 18px;
+    line-height: 21.09px;
+  }
+  .humadility-img {
+    width: 1.8rem !important;
+    height: 2.4rem;
+  }
+
+  .cloudy-img {
+    /* max-width: 1.7rem; */
+    width: 2.5rem !important;
+    height: 2.5rem;
+  }
+
+  .wind-img {
+    width: 2.4rem !important;
+    height: 1.9rem;
+  }
+}

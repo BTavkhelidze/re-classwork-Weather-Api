@@ -1,0 +1,231 @@
+:root {
+  --white-color: #ffffff;
+}
+
+.main__container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*! header starts here */
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.9rem 2.2rem;
+}
+
+.header__wrapper > img {
+  max-width: 3.9rem;
+  height: 2rem;
+}
+
+.header__wrapper > div > input {
+  border: none;
+  outline-style: none;
+  max-width: 12.5rem;
+  background-color: transparent;
+
+  /* font-size: 12px; */
+  font-weight: 500;
+  line-height: 14.06px;
+  text-align: left;
+}
+
+.searchInput::placeholder {
+  color: var(--white-color);
+  opacity: 70%;
+}
+
+.searchInput:focus,
+.searchInput:focus:active {
+  color: var(--white-color);
+}
+
+.searchBtn {
+  cursor: pointer;
+}
+
+/* header ends here */
+
+/*! weather display starts here */
+
+.weather__display__Wrapper {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 2.2rem;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.temperature__wrapper {
+  display: flex;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+}
+
+.temperature {
+  color: var(--white-color);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 75px;
+  letter-spacing: -0.08em;
+  text-align: left;
+}
+
+.weather__display__Wrapper > div {
+  display: flex;
+}
+
+.weather__display__Wrapper > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: left;
+}
+
+.cloud__wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+
+.weather__display__Wrapper > div > div img {
+  max-width: 4rem;
+  height: 4rem;
+  /* align-self: center; */
+}
+
+.weather__display__Wrapper > div .cityName {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 3.516rem;
+  text-align: left;
+  color: var(--white-color);
+  display: inline-block;
+  text-align: left;
+}
+
+.weather__display__Wrapper > div .live__time {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 11.72px;
+  text-align: left;
+  color: line;
+  margin-right: 0.5rem;
+  display: inline-block;
+  color: var(--white-color);
+}
+
+/* weather temperature ends here */
+
+/*! weather details starts here */
+
+.weather__deatails_wrapper::before {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.section2 {
+  flex: 1;
+  backdrop-filter: blur(9.5px);
+}
+
+.weather__deatails_wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+}
+.weather__deatails {
+  width: 100%;
+  padding: 10.7rem 4.5rem 0 4.5rem;
+  position: relative;
+
+  flex: 1;
+}
+
+.weather__deatails h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: center;
+
+  color: var(--white-color);
+  margin-bottom: 3.7rem;
+  z-index: -1;
+}
+
+.weather__deatails > div p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.641rem;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.weather__deatails > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 3.2rem;
+}
+
+.weather__deatails > div > div span {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.641rem;
+  text-align: left;
+  color: var(--white-color);
+}
+
+.weather__deatails > div > div img {
+  width: 1.1rem;
+}
+
+.weather__deatails > div > div > div {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.humadility-img {
+  width: 1.5rem !important;
+  height: 1.9rem;
+}
+
+.cloudy-img {
+  /* max-width: 1.7rem; */
+  width: 1.7rem !important;
+  height: 1.7rem;
+}
+
+.wind-img {
+  width: 1.9rem !important;
+  height: 1.5rem;
+}
+
+.underline {
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 3px;
+  background-color: var(--white-color);
+}
+
+.wind_div {
+  margin-bottom: 8.6rem;
+}
+.und1 {
+  opacity: 45%;
+  height: 4px;
+  background-color: gray !important;
+  /* backdrop-filter: blur(30px); */
+}
